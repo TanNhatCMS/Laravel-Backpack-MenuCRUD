@@ -19,7 +19,7 @@ class MenuCRUDServiceProvider extends ServiceProvider
      *
      * @var string
      */
-    public $routeFilePath = '/routes/backpack/menucrud.php';
+    public $routeFilePath = '/routes/menucrud.php';
 
     /**
      * Perform post-registration booting of services.
