@@ -27,7 +27,7 @@
         "squizlabs/php_codesniffer": "~2.3 || ~3.0"
     },
     "replace": {
-        "backpack/menucrud": "*"
+        "backpack/menucrud": "^4"
     },
     "autoload": {
         "psr-4": {
