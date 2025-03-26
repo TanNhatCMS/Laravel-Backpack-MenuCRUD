@@ -26,6 +26,9 @@
         "scrutinizer/ocular": "~1.1",
         "squizlabs/php_codesniffer": "~2.3 || ~3.0"
     },
+    "replace": {
+        "backpack/menucrud": "*"
+    },
     "autoload": {
         "psr-4": {
             "Backpack\\MenuCRUD\\": "src"
