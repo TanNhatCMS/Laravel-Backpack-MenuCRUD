@@ -1,5 +1,5 @@
 {
-    "name": "backpack/menucrud",
+    "name": "tannhatcms/menucrud",
     "type": "library",
     "description": "An admin panel for menu items, using Backpack\\CRUD on Laravel 6.",
     "keywords": [
@@ -19,8 +19,8 @@
     "minimum-stability": "dev",
     "prefer-stable": true,
     "require": {
-        "backpack/crud": "^6.0",
-        "backpack/pagemanager": "^3.2"
+        "tannhatcms/crud": "^6.0",
+        "tannhatcms/pagemanager": "^3.2"
     },
     "require-dev": {
         "scrutinizer/ocular": "~1.1",
@@ -40,5 +40,17 @@
                 "Backpack\\MenuCRUD\\MenuCRUDServiceProvider"
             ]
         }
-    }
+    },
+    "repositories": [
+        {
+            "name": "tannhatcms/crud",
+            "type": "vcs",
+            "url": "https://github.com/TanNhatCMS/Laravel-Backpack-CRUD-Admin.git"
+        },
+        {
+            "name": "tannhatcms/pagemanager",
+            "type": "vcs",
+            "url": "https://github.com/TanNhatCMS/Laravel-Backpack-PageManager.git"
+        }
+    ]
 }
